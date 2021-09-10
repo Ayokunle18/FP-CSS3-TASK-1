@@ -48,9 +48,7 @@ body {
   margin: 20px;
 }
 .images .box1 img {
-  /* left: 118px; */
   left: 9%;
- 
   position: absolute;
   border-radius: 5px;
   width: 5%;
@@ -64,12 +62,7 @@ body {
   margin-right: 20px;
   top: 100px;
 }
-/* .images .box1 i img {
-  width: 28px;
-  position: absolute;
-  left: 160px;
-  bottom: 365px;
-} */
+
 .small {
   color: rgb(215, 215, 215);
 }
@@ -87,7 +80,6 @@ body {
   font-size: 13px;
 }
 .images .box2 img {
-  /* right: 595px; */
   right: 43%;
   position: absolute;
   border-radius: 5px;
@@ -119,6 +111,9 @@ left: 12%;
 }
 }
 @media screen and (max-width: 992px){
+  .whole{
+    padding-block: 50px;
+  }
   .images .box1 img{
     width: 6.5%;
     left: 13%;
@@ -169,6 +164,7 @@ left: 12%;
 @media (max-width: 600px) {
   .whole {
     padding-inline: 50px;
+    padding-block: 50px;
   }
   .images {
     display: flex;
@@ -205,6 +201,9 @@ left: 12%;
   body{
     font-size: 16px;
   }
+  .whole{
+    padding-block: 40px;
+  }
   .images .box1 img{
     width: 14.5%;
     left: 11%;
@@ -220,6 +219,7 @@ left: 12%;
 @media (max-width: 360px) {
   .whole {
     padding-inline: 30px;
+    padding-block: 30px;
   }
   .images {
     display: flex;
